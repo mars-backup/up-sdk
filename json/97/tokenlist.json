@@ -1,0 +1,155 @@
+{
+  "name": "UP",
+  "tokens": [
+    {
+      "name": "XMS Token",
+      "symbol": "XMS",
+      "address": "0x70138966a7CcFd7DB437797126E547fcB21e69BC",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/MarsEcosystem/mars-token-list/master/assets/asset_XMSx800.png"
+    },
+    {
+      "name": "BUSD Mars",
+      "symbol": "USDm",
+      "address": "0x3a851f90bcCBF71061B3516C7BdB3a867385177D",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/MarsEcosystem/mars-token-list/master/assets/asset_USDMx800.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xd508f5B8c72b64B73bfD9Da823229F89590a8fA5",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/BUSD-BD1/logo.png"
+    },
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/info/logo.png"
+    },
+    {
+      "name": "USDT Token",
+      "symbol": "USDT",
+      "address": "0x6C3e4DA046734AefDD63D93A2Fd32723fC96D7eb",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/USDT-6D8/logo.png"
+    },
+    {
+      "name": "USDC Token",
+      "symbol": "USDC",
+      "address": "0x64544969ed7ebf5f083679233325356ebe738930",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/USDC-CD2/logo.png"
+    },
+    {
+      "name": "DAI Token",
+      "symbol": "DAI",
+      "address": "0x8a9424745056eb399fd19a0ec26a14316684e274",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/DAI-D75/logo.png"
+    },
+    {
+      "name": "ETH Token",
+      "symbol": "ETH",
+      "address": "0xaE2DD5a607F066955f89c1d85044b2fe9097e219",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/ETH-1C9/logo.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x9Ff7010Fe2DbdD638257b8eaA1a65e73129361A3",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/CAKE-435/logo.png"
+    },
+    {
+      "name": "XRP Token",
+      "symbol": "XRP",
+      "address": "0xa83575490d7df4e2f47b7d38ef351a2722ca45b9",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/XRP-BF2/logo.png"
+    },
+    {
+      "name": "BTCB Token",
+      "symbol": "BTCB",
+      "address": "0xF674235ef1c9c3CE8410aDc121CC46eda6c742D8",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/binance/assets/BTCB-1DE/logo.png"
+    },
+    {
+      "name": "HELMET Token",
+      "symbol": "HELMET",
+      "address": "0x12d6073E083cB8bC8c8112Bf763Cd058fa8987A7",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/8265.png"
+    },
+    {
+      "name": "KALATA Token",
+      "symbol": "KALA",
+      "address": "0x61844cD41018Cf17Bf07A6220831C5202C7E0C30",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9353.png"
+    },
+    {
+      "name": "ForTube Token",
+      "symbol": "For",
+      "address": "0xCb81421aC2b6ba75A9dE63737855942cba2C2C6D",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4118.png"
+    },
+    {
+      "name": "Celestial",
+      "symbol": "CELT",
+      "address": "0x3bA0dECc794D9D39Fe8Bde4C49E2bc9714C1395D",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw-github.marsecosystem.com/trustwallet/assets/master/blockchains/smartchain/assets/0x4f34292F109870d5fdDA602Bc7e3ae56D520D6e1/logo.png"
+    },
+    {
+      "name": "Monsta Infinite Token",
+      "symbol": "MONI",
+      "address": "0x7c98441f8d005B7ee78B968366327aE3565783F8",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/a6cf7ddff806c95d3c3e56587351a3f2ddc43ed7/blockchains/smartchain/assets/0x9573c88aE3e37508f87649f87c4dd5373C9F31e0/logo.png" 
+    },
+    {
+      "name": "TopManager Token",
+      "symbol": "TMT",
+      "address": "0x6d435C19e6B744f16a2003AE4dc8ED2BA91272cF",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://resources.topgoal.io/static/token/tmt.png"
+    },
+    {
+      "name": "UP Token",
+      "symbol": "UP",
+      "address": "0x83ac0bD6315Eea678CDe633957820058AD17139A",
+      "chainId": 97,
+      "decimals": 18
+    },
+    {
+      "name": "BSW Token",
+      "symbol": "BSW",
+      "address": "0xDCCC0f640Aa5A3D7943ea24aaCb79E7D622dE578",
+      "chainId": 97,
+      "decimals": 18
+    }
+  ]
+}

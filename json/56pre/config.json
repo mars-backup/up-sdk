@@ -1,0 +1,399 @@
+{
+  "multiCall": "0x1ee38d535d541c55c9dae27b12edf090c608e6fb",
+  "localFarms": [
+    {
+      "name": "UpFarm",
+      "address": "0xbdAA4ee21a718253fda0c2140aE62D66d0cf9Ec3"
+    },
+    {
+      "name": "UpFarmBSW",
+      "address": "0x9063138117c1b109C3cdDeCDc9a3d64D29B5BB14"
+    },
+    {
+      "name": "StakingRewardsUP",
+      "address": "0x759609E1F917a77409270e2dF09401Bc9306BBe1"
+    },
+    {
+      "name": "StakingRewardsCAKE",
+      "address": "0x7B0181eB7cF4d5bC3E0D99F5bBaA370879811aA3"
+    },
+    {
+      "name": "StakingRewardsBNB",
+      "address": "0xd16BDD3c7ec06B4B17e29aF4Eb44921928D0e888"
+    }
+  ],
+  "remoteFarms": [
+    {
+      "name": "MasterChef",
+      "address": "0x73feaa1ee314f8c655e354234017be2193c9e24e"
+    },
+    {
+      "name": "LiquidityMiningMasterBNB",
+      "address": "0x48c42579d98aa768cde893f8214371ed607cabe3"
+    },
+    {
+      "name": "LiquidityMiningMasterETH",
+      "address": "0x4639d936f0a716f234ead073362c5cb272cc4b70"
+    },
+    {
+      "name": "LiquidityMiningMasterCAKE",
+      "address": "0x22D8d50454203bd5a41B49ef515891f1aD9f3e53"
+    },
+    {
+      "name": "LiquidityMiningMasterUSDm",
+      "address": "0x2894786e5292f7f23f6805067aace92474a226ee"
+    }
+  ],
+  "pools": [
+    {
+      "alias": "CAKEEarnCAKE",
+      "wantToken": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "baseToken": "cake",
+      "quoteToken": "cake",
+      "earnToken": "cake",
+      "strategy": "0x6612d82891877fed011670e85259058b9DdDca24",
+      "localFarm": "UpFarm",
+      "localFarmPid": 0,
+      "remoteFarm": "MasterChef",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "pcsBUSD-BNBEarnCAKE",
+      "wantToken": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+      "baseToken": "busd",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "strategy": "0x2566DfC0CBd3b2697B9E97e3D77Cc82e7b3d052A",
+      "localFarm": "UpFarm",
+      "localFarmPid": 14,
+      "remoteFarm": "MasterChef",
+      "remoteFarmPid": 252
+    },
+    {
+      "alias": "pcsCAKE-BNBEarnCAKE",
+      "wantToken": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+      "baseToken": "cake",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "strategy": "0xE758E027AB44b4924414a14E2817D7e8013d460A",
+      "localFarm": "UpFarm",
+      "localFarmPid": 2,
+      "remoteFarm": "MasterChef",
+      "remoteFarmPid": 251
+    },
+    {
+      "alias": "XMSEarnBNB",
+      "wantToken": "0x7859b01bbf675d67da8cd128a50d155cd881b576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "wbnb",
+      "strategy": "0x8f8d84F8426B731362B6ACFe7831f87176c4d948",
+      "localFarm": "UpFarm",
+      "localFarmPid": 3,
+      "remoteFarm": "LiquidityMiningMasterBNB",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "XMSEarnCAKE",
+      "wantToken": "0x7859b01bbf675d67da8cd128a50d155cd881b576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "cake",
+      "strategy": "0x1A7cc791C697f3A0b797ab7e7304abc9bb20eBB9",
+      "localFarm": "UpFarm",
+      "localFarmPid": 4,
+      "remoteFarm": "LiquidityMiningMasterCAKE",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "marsXMS-BNBEarnBNB",
+      "wantToken": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "wbnb",
+      "strategy": "0xE37302b6b5AEdED8fF7ea3635A20e70db5a0aD2A",
+      "localFarm": "UpFarm",
+      "localFarmPid": 5,
+      "remoteFarm": "LiquidityMiningMasterBNB",
+      "remoteFarmPid": 1
+    },
+    {
+      "alias": "marsXMS-BNBEarnCAKE",
+      "wantToken": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "strategy": "0xA884C62eE168f8014798dCDAabd4E30C65DaE856",
+      "localFarm": "UpFarm",
+      "localFarmPid": 6,
+      "remoteFarm": "LiquidityMiningMasterCAKE",
+      "remoteFarmPid": 1
+    },
+    {
+      "alias": "CAKEEarnCAKECollect",
+      "wantToken": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "baseToken": "cake",
+      "quoteToken": "cake",
+      "earnToken": "cake",
+      "strategy": "0x3f4a43f071C9393f648BD2a8f082EA0972a4eFbC",
+      "localFarm": "UpFarm",
+      "localFarmPid": 7,
+      "remoteFarm": "MasterChef",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "pcsBUSD-BNBEarnCAKECollect",
+      "wantToken": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+      "baseToken": "busd",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "strategy": "0x45471A1eC4AABe034e0D59B370e3D7B9179B5112",
+      "localFarm": "UpFarm",
+      "localFarmPid": 15,
+      "remoteFarm": "MasterChef",
+      "remoteFarmPid": 252
+    },
+    {
+      "alias": "pcsCAKE-BNBEarnCAKECollect",
+      "wantToken": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+      "baseToken": "cake",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "strategy": "0x2375A5addA1d993619bAF282088C852C38dE8dbF",
+      "localFarm": "UpFarm",
+      "localFarmPid": 9,
+      "remoteFarm": "MasterChef",
+      "remoteFarmPid": 251
+    },
+    {
+      "alias": "XMSEarnBNBCollect",
+      "wantToken": "0x7859b01bbf675d67da8cd128a50d155cd881b576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "wbnb",
+      "strategy": "0xfE8d2A0ee9BAD1D7Fc883AeE8C1c78D89597df9E",
+      "localFarm": "UpFarm",
+      "localFarmPid": 10,
+      "remoteFarm": "LiquidityMiningMasterBNB",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "XMSEarnCAKECollect",
+      "wantToken": "0x7859b01bbf675d67da8cd128a50d155cd881b576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "cake",
+      "strategy": "0x2dC750FB8782F335dB637e4A67F5dB886Df36064",
+      "localFarm": "UpFarm",
+      "localFarmPid": 11,
+      "remoteFarm": "LiquidityMiningMasterCAKE",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "marsXMS-BNBEarnBNBCollect",
+      "wantToken": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "wbnb",
+      "strategy": "0x66FfD304Dc8b518Dc60bEa1E8f5A3294034cd52b",
+      "localFarm": "UpFarm",
+      "localFarmPid": 12,
+      "remoteFarm": "LiquidityMiningMasterBNB",
+      "remoteFarmPid": 1
+    },
+    {
+      "alias": "marsXMS-BNBEarnCAKECollect",
+      "wantToken": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "strategy": "0x18bdEEa0f41893D5cE6C2F1CED12c389444CdcC6",
+      "localFarm": "UpFarm",
+      "localFarmPid": 13,
+      "remoteFarm": "LiquidityMiningMasterCAKE",
+      "remoteFarmPid": 1
+    },
+    {
+      "alias": "XMSEarnUSDm",
+      "wantToken": "0x7859b01bbf675d67da8cd128a50d155cd881b576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "usdm",
+      "strategy": "0x2D13214DC9491c935Baa6426c97788dEB1e37657",
+      "localFarm": "UpFarm",
+      "localFarmPid": 16,
+      "remoteFarm": "LiquidityMiningMasterUSDm",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "BSWEarnBSW",
+      "wantToken": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+      "baseToken": "bsw",
+      "quoteToken": "bsw",
+      "earnToken": "bsw",
+      "strategy": "0x889D000fCe9Dd6D2BF5f45F845790eD280b5F5dC",
+      "localFarm": "UpFarmBSW",
+      "localFarmPid": 6,
+      "remoteFarm": "MasterChefBSW",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "BUSD-USDTEarnBSW",
+      "wantToken": "0xDA8ceb724A06819c0A5cDb4304ea0cB27F8304cF",
+      "baseToken": "usdt",
+      "quoteToken": "busd",
+      "earnToken": "bsw",
+      "strategy": "0x4863F7bb437039F50cf8990380428b38E980d89f",
+      "localFarm": "UpFarmBSW",
+      "localFarmPid": 1,
+      "remoteFarm": "MasterChefBSW",
+      "remoteFarmPid": 1
+    },
+    {
+      "alias": "BSW-BNBEarnBSW",
+      "wantToken": "0x46492B26639Df0cda9b2769429845cb991591E0A",
+      "baseToken": "bsw",
+      "quoteToken": "wbnb",
+      "earnToken": "bsw",
+      "strategy": "0x94C5eDd38152baDd92710c54e7CD22D65C3B3fD6",
+      "localFarm": "UpFarmBSW",
+      "localFarmPid": 2,
+      "remoteFarm": "MasterChefBSW",
+      "remoteFarmPid": 10
+    },
+    {
+      "alias": "BSWEarnBSWCollect",
+      "wantToken": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+      "baseToken": "bsw",
+      "quoteToken": "bsw",
+      "earnToken": "bsw",
+      "strategy": "0x5D9fC8cc6Ab927510FA043257e3084bc3818BdAB",
+      "localFarm": "UpFarmBSW",
+      "localFarmPid": 7,
+      "remoteFarm": "MasterChefBSW",
+      "remoteFarmPid": 0
+    },
+    {
+      "alias": "BUSD-USDTEarnBSWCollect",
+      "wantToken": "0xDA8ceb724A06819c0A5cDb4304ea0cB27F8304cF",
+      "baseToken": "usdt",
+      "quoteToken": "busd",
+      "earnToken": "bsw",
+      "strategy": "0x6CD8000E6212b5f7bCFE3dde65309b568Bf7c00E",
+      "localFarm": "UpFarmBSW",
+      "localFarmPid": 4,
+      "remoteFarm": "MasterChefBSW",
+      "remoteFarmPid": 1
+    },
+    {
+      "alias": "BSW-BNBEarnBSWCollect",
+      "wantToken": "0x46492B26639Df0cda9b2769429845cb991591E0A",
+      "baseToken": "bsw",
+      "quoteToken": "wbnb",
+      "earnToken": "bsw",
+      "strategy": "0x9d6E9F488Cfeb9CbcD8254bB01f039ABfBe857Be",
+      "localFarm": "UpFarmBSW",
+      "localFarmPid": 5,
+      "remoteFarm": "MasterChefBSW",
+      "remoteFarmPid": 10
+    }
+  ],
+  "stakings": [
+    {
+      "alias": "UPEarnUP",
+      "wantToken": "0xc27F9B8f37F5166A931a3656AD6B660a854062A8",
+      "baseToken": "up",
+      "quoteToken": "up",
+      "earnToken": "up",
+      "localFarm": "StakingRewardsUP",
+      "localFarmPid": 0
+    },
+    {
+      "alias": "UPEarnCAKE",
+      "wantToken": "0xc27F9B8f37F5166A931a3656AD6B660a854062A8",
+      "baseToken": "up",
+      "quoteToken": "up",
+      "earnToken": "up",
+      "localFarm": "StakingRewardsCAKE",
+      "localFarmPid": 0
+    },
+    {
+      "alias": "UPEarnBNB",
+      "wantToken": "0xc27F9B8f37F5166A931a3656AD6B660a854062A8",
+      "baseToken": "up",
+      "quoteToken": "up",
+      "earnToken": "up",
+      "localFarm": "StakingRewardsBNB",
+      "localFarmPid": 0
+    },
+    {
+      "alias": "UP-BNBEarnUP",
+      "wantToken": "0x45212a7989a36ba53cac9Cde4EE9fE5fE5691958",
+      "baseToken": "up",
+      "quoteToken": "wbnb",
+      "earnToken": "up",
+      "localFarm": "StakingRewardsUP",
+      "localFarmPid": 1
+    }
+  ],
+  "oracles": [
+    {
+      "token": "BUSD",
+      "address": "0xcC413F6C89b6Fa3e1F48389968E303ac519Cbd38"
+    }
+  ],
+  "priceHelper": [
+    {
+      "address": "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE",
+      "baseToken": "usdt",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+      "baseToken": "cake",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082",
+      "baseToken": "btcb",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc",
+      "baseToken": "eth",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+      "baseToken": "wbnb",
+      "quoteToken": "busd"
+    },
+    {
+      "address": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x18F9466ECA35A82a78086d79A78cE7ab16f10616",
+      "baseToken": "usdm",
+      "quoteToken": "busd"
+    },
+    {
+      "address": "0x46492B26639Df0cda9b2769429845cb991591E0A",
+      "baseToken": "bsw",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x590eEA22C5F986738FA767Ae7EC2100105e000dE",
+      "baseToken": "up",
+      "quoteToken": "cake"
+    }
+  ],
+  "fixSupplyAddresses": [
+    "0x3360deC490E74605c65CDb8D2F87137c1C5E8345",
+    "0x46E7CB54eC7fcdeaa1C3D5661494133CdBA63824",
+    "0xbdAA4ee21a718253fda0c2140aE62D66d0cf9Ec3",
+    "0x9063138117c1b109C3cdDeCDc9a3d64D29B5BB14",
+    "0x0F5aABbF086304BA1C96341A4ed5E4730694f0F0"
+  ]
+}
